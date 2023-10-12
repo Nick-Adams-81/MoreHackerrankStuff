@@ -4,5 +4,8 @@ public class Main {
 
         CountingValleys countValleys = new CountingValleys();
         System.out.println(countValleys.countingValleys("dududu"));
+
+        ValidParens validParens = new ValidParens();
+        System.out.println(validParens.validParens("[]{{"));
     }
 }
