@@ -7,4 +7,8 @@ public class ReverseString {
         }
         return returnStr.toString().toString();
     }
+
+    public String reverseString2(String str) {
+        return new StringBuilder(str).reverse().toString();
+    }
 }

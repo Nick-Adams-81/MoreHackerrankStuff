@@ -10,5 +10,6 @@ public class Main {
 
         ReverseString reverseString = new ReverseString();
         System.out.println(reverseString.reverseString1("hello"));
+        System.out.println(reverseString.reverseString2("world"));
     }
 }
