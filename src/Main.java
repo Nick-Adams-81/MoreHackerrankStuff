@@ -7,5 +7,8 @@ public class Main {
 
         ValidParens validParens = new ValidParens();
         System.out.println(validParens.validParens("[]{{"));
+
+        ReverseString reverseString = new ReverseString();
+        System.out.println(reverseString.reverseString1("hello"));
     }
 }
