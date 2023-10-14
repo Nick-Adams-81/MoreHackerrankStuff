@@ -14,5 +14,8 @@ public class Main {
 
         CountVowels vowels = new CountVowels();
         System.out.println(vowels.countVowels("hello world"));
+
+        RemoveVowels remove = new RemoveVowels();
+        System.out.println(remove.removeVowels("hello world"));
     }
 }
