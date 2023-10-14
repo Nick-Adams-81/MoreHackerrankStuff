@@ -17,5 +17,8 @@ public class Main {
 
         RemoveVowels remove = new RemoveVowels();
         System.out.println(remove.removeVowels("hello world"));
+
+        PrimeNumbers primes = new PrimeNumbers();
+        System.out.println(primes.primeNumbers(50));
     }
 }
