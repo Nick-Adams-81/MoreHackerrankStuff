@@ -20,5 +20,8 @@ public class Main {
 
         PrimeNumbers primes = new PrimeNumbers();
         System.out.println(primes.primeNumbers(50));
+
+        Palindrome isPalindrome = new Palindrome();
+        System.out.println(isPalindrome.isPalindrome("daddy"));
     }
 }
