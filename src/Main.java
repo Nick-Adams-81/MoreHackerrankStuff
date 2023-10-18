@@ -42,6 +42,7 @@ public class Main {
 
         TwoSum twoSum = new TwoSum();
         int[] numsArr = {2, 7, 11, 15};
-        System.out.println(Arrays.toString(twoSum.twoSum1(numsArr, 18)));
+        System.out.println(Arrays.toString(twoSum.twoSum1(numsArr, 9)));
+        System.out.println(Arrays.toString(twoSum.twoSum2(numsArr, 18)));
     }
 }
