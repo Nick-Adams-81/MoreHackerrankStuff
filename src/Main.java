@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -23,5 +26,17 @@ public class Main {
 
         Palindrome isPalindrome = new Palindrome();
         System.out.println(isPalindrome.isPalindrome("daddy"));
+
+        SockMerchant sockMerchant = new SockMerchant();
+        List<Integer> socks = new ArrayList<>();
+        socks.add(1);
+        socks.add(1);
+        socks.add(1);
+        socks.add(2);
+        socks.add(2);
+        socks.add(3);
+        socks.add(3);
+
+        System.out.println(sockMerchant.sockPairs(socks));
     }
 }
