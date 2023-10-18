@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Main {
@@ -38,5 +39,9 @@ public class Main {
         socks.add(3);
 
         System.out.println(sockMerchant.sockPairs(socks));
+
+        TwoSum twoSum = new TwoSum();
+        int[] numsArr = {2, 7, 11, 15};
+        System.out.println(Arrays.toString(twoSum.twoSum1(numsArr, 18)));
     }
 }
