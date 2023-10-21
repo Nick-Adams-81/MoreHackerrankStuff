@@ -44,5 +44,8 @@ public class Main {
         int[] numsArr = {2, 7, 11, 15};
         System.out.println(Arrays.toString(twoSum.twoSum1(numsArr, 9)));
         System.out.println(Arrays.toString(twoSum.twoSum2(numsArr, 18)));
+
+        JumpOnClouds cloudJumper = new JumpOnClouds();
+        int[] clouds = {};
     }
 }
