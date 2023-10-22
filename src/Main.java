@@ -55,5 +55,8 @@ public class Main {
         BuyAndSellStock stockMarket = new BuyAndSellStock();
         int[] stockPrices = {7, 1, 5, 3, 6, 4};
         System.out.println(stockMarket.maxProfit(stockPrices));
+
+        BinarySearch search = new BinarySearch();
+        System.out.println(search.search(stockPrices, 4));
     }
 }
