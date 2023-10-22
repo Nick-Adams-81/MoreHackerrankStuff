@@ -51,5 +51,9 @@ public class Main {
         ContainerWithMostWater water = new ContainerWithMostWater();
         int[] rainWater = {1, 8, 6, 2, 5,4, 8, 3, 7};
         System.out.println(water.mostWater(rainWater));
+
+        BuyAndSellStock stockMarket = new BuyAndSellStock();
+        int[] stockPrices = {7, 1, 5, 3, 6, 4};
+        System.out.println(stockMarket.maxProfit(stockPrices));
     }
 }
