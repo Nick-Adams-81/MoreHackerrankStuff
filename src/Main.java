@@ -45,7 +45,11 @@ public class Main {
         System.out.println(Arrays.toString(twoSum.twoSum1(numsArr, 9)));
         System.out.println(Arrays.toString(twoSum.twoSum2(numsArr, 18)));
 
-        JumpOnClouds cloudJumper = new JumpOnClouds();
-        int[] clouds = {};
+//        JumpOnClouds cloudJumper = new JumpOnClouds();
+//        int[] clouds = {};
+
+        ContainerWithMostWater water = new ContainerWithMostWater();
+        int[] rainWater = {1, 8, 6, 2, 5,4, 8, 3, 7};
+        System.out.println(water.mostWater(rainWater));
     }
 }
