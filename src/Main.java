@@ -16,6 +16,8 @@ public class Main {
         System.out.println(reverseString.reverseString1("hello"));
         System.out.println(reverseString.reverseString2("world"));
 
+        System.out.println("Rev string: " + reverseString.revString("hello world"));
+
         CountVowels vowels = new CountVowels();
         System.out.println(vowels.countVowels("hello world"));
 
